@@ -4,8 +4,8 @@ from functools import reduce
 sys.stdin.readline()  # skip unneeded first line
 
 numbers = list(map(int, sys.stdin.readline().rstrip('\n').split()))
-A = set(map(int, sys.stdin.readline().rstrip('\n').split()))
-B = set(map(int, sys.stdin.readline().rstrip('\n').split()))
+A       =  set(map(int, sys.stdin.readline().rstrip('\n').split()))
+B       =  set(map(int, sys.stdin.readline().rstrip('\n').split()))
 
 print(
     reduce(
