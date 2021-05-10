@@ -16,7 +16,7 @@ for middle in range(1, size+1):
 print(answer, end="")
 
 # onliner answer
-print("\n".join(["".join(["{}".format(y) for y in range(1, x+1)] + ["{}".format(y) for y in range(x-1, 0, -1)]) for x in range(1, size+1)]))
+print("\n".join(["".join([str(y) for y in range(1, x+1)] + [str(y) for y in range(x-1, 0, -1)]) for x in range(1, size+1)]))
 
 # only one print statement is allowed !
 # str() is not allowed
